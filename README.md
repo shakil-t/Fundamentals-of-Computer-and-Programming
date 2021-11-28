@@ -12,7 +12,7 @@ I wrote my first program on a piece of paper. The program was supposed to print 
 \*\
 However, I was not completely successful.
 ![](https://github.com/shakil-t/Fundamentals-of-Computer-and-Programming/blob/main/my%20first%20program.jpg)
-The code printed the following pattern only once:
+The code printed the following pattern only once:\
 \*\*\*\*\*\
 \*\*\*\*\
 \*\*\*\
