@@ -62,7 +62,7 @@ public class Encrypt {
         }
     }
     public static void main(String[] args)
-// TODO code application logic here
+// This code encrypts and decrypts a text using a special pattern
             throws FileNotFoundException{
         try{
         Scanner input1=new Scanner(new File("C:/Users/shakil/Files/caesar(encode).txt"));
