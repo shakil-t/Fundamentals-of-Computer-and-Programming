@@ -16,12 +16,12 @@ public class Interface {
      */
     public static void main(String[] args) {
         //Starting to learn OOP with the example of rectangles
-        Rectangle a=new Rectangle();
+        Rectangle a = new Rectangle();
         a.getArea(2, 3);
         a.getPerimeter(2, 3);
         a.Resize(2, 3, 2);
         a.getArea(2, 3);
         a.getPerimeter(2, 3);
     }
-    
+
 }
