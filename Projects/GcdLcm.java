@@ -16,7 +16,7 @@ public class GcdLcm {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // This code find the GCD and LCM of two numbers
         Scanner input=new Scanner(System.in);
         System.out.println(" Enter the first number ");
         int n;
