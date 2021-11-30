@@ -32,5 +32,4 @@ public class IceCreamShop {
             System.out.println(0);
         }
     }
-
 }
