@@ -15,15 +15,15 @@ public class Fibonaccir {
     /**
      * @param args the command line arguments
      */
-    
-    static int n1=1,n2=1,n3=0;
-    public static void fibonaccir(int counter){
-        if(counter>0){
-            n3=n1+n2;
-            n1=n2;
-            n2=n3;
+
+    static int n1 = 1, n2 = 1, n3 = 0;
+    public static void fibonaccir(int counter) {
+        if (counter > 0) {
+            n3 = n1 + n2;
+            n1 = n2;
+            n2 = n3;
             System.out.println(n3);
-            fibonaccir(counter-1);
+            fibonaccir(counter - 1);
         }
     }
 
@@ -31,15 +31,15 @@ public class Fibonaccir {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        Scanner input=new Scanner(System.in);
+        // This code prints the Fibonacci series up to nth element in a recurrsive manner
+        Scanner input = new Scanner(System.in);
         System.out.println(" Enter a number ");
         int counter;
         counter = input.nextInt();
         System.out.println(n1);
         System.out.println(n2);
-        fibonaccir(counter-2);
-        
+        fibonaccir(counter - 2);
+
     }
-    
+
 }
