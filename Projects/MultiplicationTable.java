@@ -24,7 +24,7 @@ public class MultiplicationTable {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // This code prints a n*n time table
+        // This code prints a n*n time/multiplication table
         MultiplicationTable(10, 10);
     }
 }
