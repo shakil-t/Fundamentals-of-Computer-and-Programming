@@ -17,20 +17,20 @@ public class IceCreamShop {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        Scanner scan=new Scanner(System.in);
-        int numScopes=scan.nextInt();
-        int iceCreamPrice=scan.nextInt();
-        int IvansMoney=scan.nextInt();
-        int neededMoney=0;
-        for(int k=1;k<numScopes;k++){
-            neededMoney+=k*iceCreamPrice;
+        // Ivan wants to buy ice cream and this code computes the number of scopes he can buy based on his money
+        Scanner scan = new Scanner(System.in);
+        int numScopes = scan.nextInt();
+        int iceCreamPrice = scan.nextInt();
+        int IvansMoney = scan.nextInt();
+        int neededMoney = 0;
+        for (int k = 1; k < numScopes; k++) {
+            neededMoney += k * iceCreamPrice;
         }
-        if(IvansMoney<neededMoney){
-            System.out.println(neededMoney-IvansMoney);
-        }else{
+        if (IvansMoney < neededMoney) {
+            System.out.println(neededMoney - IvansMoney);
+        } else {
             System.out.println(0);
         }
     }
-    
+
 }
