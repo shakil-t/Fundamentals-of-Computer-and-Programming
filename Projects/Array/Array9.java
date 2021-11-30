@@ -17,19 +17,19 @@ public class Array9 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner input=new Scanner(System.in);
-        double[][] matrix=new double[2][2];
+        Scanner input = new Scanner(System.in);
+        double[][] matrix = new double[2][2];
         System.out.println(" Enter the elements of the matrix ");
-        for(int i=0;i<2;i++){
-            for(int j=0;j<2;j++){
+        for (int i = 0; i < 2; i++) {
+            for (int j = 0; j < 2; j++) {
                 matrix[i][j] = input.nextDouble();
             }
         }
-       double a=matrix[1][1];
-       double d=matrix[2][2];
-       double b=matrix[1][2];
-       double c=matrix[2][1];
-       System.out.println(d*a);
+        double a = matrix[1][1];
+        double d = matrix[2][2];
+        double b = matrix[1][2];
+        double c = matrix[2][1];
+        System.out.println(d * a);
     }
-    
+
 }
