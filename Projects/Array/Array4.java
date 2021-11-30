@@ -17,26 +17,26 @@ public class Array4 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner input=new Scanner(System.in);
-        int[] array=new int[10];
-        boolean flag=false;
+        Scanner input = new Scanner(System.in);
+        int[] array = new int[10];
+        boolean flag = false;
         System.out.println(" Enter the students number ");
-        for(int i=0;i<10;i++){
+        for (int i = 0; i < 10; i++) {
             array[i] = input.nextInt();
         }
         int m;
         System.out.println(" Enter the student number ");
         m = input.nextInt();
-        for(int j=0;j<10;j++){
-            if(array[j]==m){
-                flag=true;
+        for (int j = 0; j < 10; j++) {
+            if (array[j] == m) {
+                flag = true;
             }
         }
-        if(flag==true){
+        if (flag == true) {
             System.out.println(" Seen! ");
-        }else{
+        } else {
             System.out.println(" Not seen! ");
         }
     }
-    
+
 }
