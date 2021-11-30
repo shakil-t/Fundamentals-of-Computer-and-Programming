@@ -16,7 +16,7 @@ public class Fibonacci {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // This code prints the Fibonacci series up to nth element
         //1,2,...,n are indexes 
         Scanner input=new Scanner(System.in);
        System.out.println(" Enter a number ");
