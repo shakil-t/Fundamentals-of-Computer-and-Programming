@@ -17,22 +17,22 @@ public class Array5 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner input=new Scanner(System.in);
-        double[] array=new double[20];
-        int counter=0;
+        Scanner input = new Scanner(System.in);
+        double[] array = new double[20];
+        int counter = 0;
         System.out.println(" Enter the numbers ");
-        for(int i=0;i<20;i++){
+        for (int i = 0; i < 20; i++) {
             array[i] = input.nextDouble();
         }
         double m;
         System.out.println(" Choose one of the numbers ");
         m = input.nextDouble();
-        for(int j=0;j<20;j++){
-            if(array[j]==m){
+        for (int j = 0; j < 20; j++) {
+            if (array[j] == m) {
                 counter++;
             }
         }
         System.out.println(counter);
     }
-    
+
 }
