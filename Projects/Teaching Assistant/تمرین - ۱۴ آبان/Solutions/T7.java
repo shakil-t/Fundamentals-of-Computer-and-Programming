@@ -3,23 +3,30 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package t1;
+package t7;
 
 /**
  *
  * @author shakil
  */
-public class T1 {
+import java.util.Scanner;
+public class T7 {
 
     /**
      * @param args the command line arguments
      */
+    public static void multiplication(int n){
+        for(int i=1;i<11;i++){
+            System.out.println(n+"*"+i+"="+n*i);
+        }
+    }
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hey buddy! How you doing?");
-        System.out.println("Shakila Tayefe");
-	//It can also be like:
-	//System.out.println("Shakila"+" "+"Tayefe");
+        Scanner input=new Scanner(System.in);
+        int a;
+        System.out.println("Enter the number");
+        a=input.nextInt();
+        multiplication(a);
     }
     
 }

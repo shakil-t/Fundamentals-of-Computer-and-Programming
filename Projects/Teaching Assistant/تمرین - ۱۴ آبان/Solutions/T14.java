@@ -3,23 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package t1;
+package t14;
 
 /**
  *
  * @author shakil
  */
-public class T1 {
+public class T14 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hey buddy! How you doing?");
-        System.out.println("Shakila Tayefe");
-	//It can also be like:
-	//System.out.println("Shakila"+" "+"Tayefe");
+        int n=5;
+        int p=1;
+        for(int i=0;i<4;i++){
+            p=p*n;
+        }
+        System.out.println(p);
     }
     
 }

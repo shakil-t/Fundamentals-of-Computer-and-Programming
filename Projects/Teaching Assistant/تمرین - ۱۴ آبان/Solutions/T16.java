@@ -3,23 +3,29 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package t1;
+package t16;
 
 /**
  *
  * @author shakil
  */
-public class T1 {
+import java.util.Scanner;
+public class T16 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hey buddy! How you doing?");
-        System.out.println("Shakila Tayefe");
-	//It can also be like:
-	//System.out.println("Shakila"+" "+"Tayefe");
+        Scanner input=new Scanner(System.in);
+        int n;
+        System.out.println("Enter the number:");
+        n=input.nextInt();
+        while(n>0){
+            System.out.print(n%10+" ");
+            n=n/10;
+        }
+        
     }
     
 }

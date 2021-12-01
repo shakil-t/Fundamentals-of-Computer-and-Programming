@@ -3,23 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package t1;
+package t5;
 
 /**
  *
  * @author shakil
  */
-public class T1 {
+public class T5 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hey buddy! How you doing?");
-        System.out.println("Shakila Tayefe");
-	//It can also be like:
-	//System.out.println("Shakila"+" "+"Tayefe");
+        //می توانید تابعی بنوسید و یا حتی از کاربر ورودی بگیرید
+	double minutesInYear=60*24*365;
+        double min=3456789;
+	int years=(int)(min/minutesInYear);
+	int days=(int)(min/60/24)%365;
+	System.out.println(min+" Minutes is approximately: "+years+"years and "+days +" days");
     }
     
 }
